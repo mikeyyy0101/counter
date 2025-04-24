@@ -9,7 +9,7 @@ const Header = ({ theme, setTheme }) => {
         <div className='w-12 '>
 
   
-         <img className='rounded-full' src="/public/images/brand.png" alt="logo" />
+         <img className='rounded-full' src="./brand.png" alt="logo" />
      
 
         </div>
