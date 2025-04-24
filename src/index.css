@@ -1,0 +1,15 @@
+@import 'tailwindcss';
+
+.shadow-inner{
+  box-shadow: inset 0 8px 50px black;
+}
+
+.light-theme {
+  background-color: #c8f8ff;
+  color: #000000;
+}
+
+.dark-theme {
+  background-color: #2e2e2e;
+  color: #ffffff;
+}
