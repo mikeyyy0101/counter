@@ -5,13 +5,13 @@ import Button from './Button'
 
 const Buttonss = ({ count, setCount, setColor }) => {
   function handleIncrement() {
-    setCount(count + 1)
+    setCount(prev=>prev+1)
     setColor('text-green-500')
   }
 
   function handleDecrement() {
     if (count > 0) {
-      setCount(count - 1)
+      setCount(prev=>prev-1)
       setColor('text-red-500')
     }
   }
